@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="loyiha ishi.css"> -->
+     <style>
+        h1{
+            font-size: 25px;
+        }
+
+        p{
+            font-size: 15px;
+        }
+
+        a{
+            text-decoration: none; 
+            color: white;
+            font-size: 13px;
+            transition: 0.5s;
+        }
+        a:hover{
+            color: orangered;
+        }
+     </style>
+</head>
+<body style="color: white; font-weight: bold; font-family: sans-serif;">
+    <header class="heaeder" style="background-color: #35424a; margin-bottom: -50px;">
+        <div class="container" style="max-width: 1500px; width: 100%; margin: 0 auto; display: flex; align-items: center; justify-content: space-between;">
+            <h1><span style="color: orangered;">Shoxrux</span> Web Desin g </h1>
+            <ul style="list-style: none; display: flex; gap: 30px;">
+                <li><a href="index.html" style="color: orangered;">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="connect.html">CONNECT</a></li>
+            </ul>
+        </div>
+        <hr style="background-color: brown; height: 5px;">
+    </header>
+    <main class="main">
+        <section class="web_dizayn" style="background-image: url(img/Без\ названия.jpg); max-width: 1900px; height: 500px; color: white;">
+            <h1 style="display: flex; justify-content: center; padding-top: 170px; font-size: 70px;">Takrorlanmas Web Dizaynerlar !</h1>
+            <p style="display: flex; justify-content: center; align-items: center; text-align: center;">Biz sizga takrorlanmas va eng yaxshi dizayn namunalarini taqdim etamiz. Biz faqat siz uchun yaratamiz. 
+                Mukammallik sanati !</p>
+        </section>
+        <section class="our__news" style="background-color: #35424a;">
+            <div class="conteiner" style="max-width: 1500px; width: 100%; margin: 0 auto;">
+                <div class="our__news-title" style="display: flex; align-items: center; justify-content: space-between;">
+                <h3 style="font-size: 25px;">Bizning Yangiliklarga Obuna bo'ling:</h3>
+                <form action="qidir">
+                    <label for="qidir"> <input type="email" name="qidir" id="qidir" placeholder="Emalinggizni kiriting..." style="margin-left: 5px; padding: 5px;"></label>
+                    <button style=" padding: 7px; background: orangered;  color: white; border: none;">Obuna bo'lish</button>
+                </form>  
+                </div>
+             </div>
+        </section>
+        <section class="css__photos">
+            <div class="container" style="max-width: 1500px; width: 100%; margin: 0 auto;">
+              <div class="css__cards" style="display: flex; justify-content: space-between; align-items: center; text-align: center;">
+                <div class="css__card">
+                    <img src="img/html5.svg" alt="" style="width: 80px; height: 100px;">
+                    <p style="color: black;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, at. Nulla fugiat ipsum quam officia.</p>
+                </div>
+                <div class="css__card">
+                    <img src="img/css3.svg" alt="" style="width: 80px; height: 100px;">
+                    <p style="color: black;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, at. Nulla fugiat ipsum quam officia.</p>
+                </div>
+                <div class="css__card">
+                    <img src="img/design.svg" alt="" style="width: 80px; height: 100px;">
+                    <p style="color: black;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, at. Nulla fugiat ipsum quam officia.</p>
+                </div>
+            </div>      
+            </div>
+        </section>
+    </main>
+    <footer class="footer" style="background-color: orangered; padding: 10px; text-align: center;">
+        <div class="container" style="max-width: 1500px; width: 100%; margin: 0 auto;">
+            <h1>Shoxrux Web Desing &copy; 2025</h1>
+        </div>
+    </footer>
+</body>
+
+</html>
